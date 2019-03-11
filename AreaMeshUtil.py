@@ -138,11 +138,11 @@ class LatLngToMesh():
         lat4, lng4 = lat1 + diff_lat, lng1
 
         coodinates = list()
-        coodinates.append([lat1, lng1])
-        coodinates.append([lat2, lng2])
-        coodinates.append([lat3, lng3])
-        coodinates.append([lat4, lng4])
-        coodinates.append([lat1, lng1])
+        coodinates.append([lng1, lat1])
+        coodinates.append([lng2, lat2])
+        coodinates.append([lng3, lat3])
+        coodinates.append([lng4, lat4])
+        coodinates.append([lng1, lat1])
         p = Polygon([coodinates])
 
         return Feature(meshcode, geometory=p)
