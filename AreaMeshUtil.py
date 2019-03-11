@@ -145,7 +145,7 @@ class LatLngToMesh():
         coodinates.append([lng1, lat1])
         p = Polygon([coodinates])
 
-        return Feature(meshcode, geometory=p)
+        return Feature(meshcode, geometry=p)
 
 
 if __name__ == "__main__":

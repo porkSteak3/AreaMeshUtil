@@ -3,7 +3,8 @@
   "features": [
     {
       "type": "Feature",
-      "geometory": {
+      "id": "53394644",
+      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
@@ -30,8 +31,6 @@
           ]
         ]
       },
-      "id": "53394644",
-      "geometry": null,
       "properties": {}
     }
   ]
